@@ -1,0 +1,28 @@
+{
+  "examples": [
+    {
+      "question": "Remind me to attend my kids' soccer practice on Monday at 5pm.",
+      "response": {
+        "task": "attend kids soccer practice",
+        "frequency": "Every Monday at 5pm",
+        "cronExpression": "0 17 * * 1"
+      }
+    },
+    {
+      "question": "Schedule a weekly meeting with the design team every Tuesday at 11am.",
+      "response": {
+        "task": "weekly meeting with design team",
+        "frequency": "Every Tuesday at 11am",
+        "cronExpression": "0 11 * * 2"
+      }
+    },
+    {
+      "question": "Remind me to call mom every Sunday at 3pm.",
+      "response": {
+        "task": "call mom",
+        "frequency": "Every Sunday at 3pm",
+        "cronExpression": "0 15 * * 0"
+      }
+    }
+  ]
+}
