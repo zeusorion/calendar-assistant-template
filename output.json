@@ -1,0 +1,42 @@
+[
+  {
+    "prompt": "Remind me to pick up rental car every Saturday at 4pm.",
+    "results": {
+      "task": "pick up rental car",
+      "frequency": "Every Saturday at 4pm",
+      "cronExpression": "0 16 * * 6"
+    }
+  },
+  {
+    "prompt": "Schedule my yoga session every Wednesday at 6am.",
+    "results": {
+      "task": "yoga session",
+      "frequency": "Every Wednesday at 6am",
+      "cronExpression": "0 6 * * 3"
+    }
+  },
+  {
+    "prompt": "Remind me to check the stock market every weekday at 9am.",
+    "results": {
+      "task": "check the stock market",
+      "frequency": "Every weekday at 9am",
+      "cronExpression": "0 9 * * 1-5"
+    }
+  },
+  {
+    "prompt": "Set a reminder to walk the dog every evening at 7pm.",
+    "results": {
+      "task": "walk the dog",
+      "frequency": "Every day at 7pm",
+      "cronExpression": "0 19 * * *"
+    }
+  },
+  {
+    "prompt": "Remind me to water the plants every three days at 8am.",
+    "results": {
+      "task": "water the plants",
+      "frequency": "Every 3 days at 8am",
+      "cronExpression": "0 8 */3 * *"
+    }
+  }
+]
